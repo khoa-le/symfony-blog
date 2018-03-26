@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d03baa8e-3a9e-4200-9fcd-7afefd210a81" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/global.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/main.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/hwi_oauth.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/d.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Auth0ResourceOwner.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataFixtures/ORM/Fixtures.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/EventListener/Author/CheckIsAuthorListener.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Form/EntryFormType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/admin/create_author.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/admin/entries.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/admin/entry_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/blog/author.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/blog/entries.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/blog/entry.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/nav_bar.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.env.travis.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entries.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="entries.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/entries.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
@@ -82,6 +69,26 @@
                 <element signature="e#2537#2543#1#HTML" expanded="true" />
                 <element signature="e#2878#2884#1#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env.travis.dist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env.travis.dist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,33 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="149" column="5" lean-forward="false" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-              <folding>
-                <element signature="e#34#58#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="entries.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/admin/entries.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
               <caret line="38" column="139" lean-forward="false" selection-start-line="38" selection-start-column="139" selection-end-line="38" selection-end-column="139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entry_form.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/entry_form.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -188,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/Controller/BlogController.php" />
         <option value="$PROJECT_DIR$/templates/blog/author.html.twig" />
         <option value="$PROJECT_DIR$/templates/blog/entries.html.twig" />
+        <option value="$PROJECT_DIR$/.env.travis.dist" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -316,52 +303,6 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -402,12 +343,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521979985775</updated>
-      <workItem from="1521979987722" duration="12037000" />
+      <workItem from="1521979987722" duration="13002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12037000" />
+    <option name="totallyTimeSpent" value="13002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1428" height="820" extended-state="0" />
@@ -638,7 +579,7 @@
         <state relative-caret-position="-409">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
-            <element signature="e#28#68#0#PHP" expanded="true" />
+            <element signature="e#28#68#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -727,6 +668,22 @@
             <element signature="e#2537#2543#1#HTML" expanded="true" />
             <element signature="e#2878#2884#1#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.travis.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
